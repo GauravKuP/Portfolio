@@ -63,6 +63,14 @@ app.get('/form',(req,res)=>{
 });
 
 
+//server welcome note:
+
+app.get('',(req,res)=>{
+  res.send("Portfolio server is running fine");
+})
+
+
+
 
 // contact Manager backend code:...........................................................
 
