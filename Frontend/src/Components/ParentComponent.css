@@ -1,0 +1,10 @@
+.page{
+    height: 80vh;
+    /* background-image: url(./images/pexels-pixabay-66869.jpg); */
+    background-color: aquamarine;
+}
+
+.center{
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+}

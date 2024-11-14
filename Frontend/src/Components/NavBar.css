@@ -1,0 +1,14 @@
+.NavBar{
+    /* position:absolute; */
+    overflow:auto;
+    list-style-type: none;
+    background-color: aliceblue; 
+    height:40px;
+}
+
+.li{
+    /* color:; */
+    padding:10px 130px ;
+    float:left;
+    /* color:brown; */
+}
