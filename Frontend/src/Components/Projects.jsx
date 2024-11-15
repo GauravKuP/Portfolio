@@ -28,7 +28,7 @@ return(
     <section className='inlineBlock'>
         <h2>Features</h2>
         <a href="https://gauravkup.github.io/Sticky-Menu-Bar/ " target="#"><h3>Sticky Menu Bar</h3></a>
-        <a href="" target="#"><h3>Background Changer</h3></a>
+        <a href="https://gauravkup.github.io/Backround-Changer/" target="#"><h3>Background Changer</h3></a>
         <a href="https://gauravkup.github.io/Photo-Slider/ " target="#"><h3>Photo Slider</h3></a>
         <a href="http://localhost:2000/form" target="#"><h3>Form validation</h3></a>
     </section>
