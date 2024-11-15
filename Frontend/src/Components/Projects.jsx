@@ -20,8 +20,8 @@ return(
 
     <section className='inlineBlock'>
         <h2>Tools</h2>
-        <a href="D:\New Volume\vscodefiles\Portfolio\backend\Projects\ajs techgun projects\project-7-stopwatch\stopwatch.html" target="#"><h3>Stop Watch</h3></a>
-        <a href="https://gauravkup.github.io/Temperature-Converter/ " target="#"><h3>Temperature converter</h3></a>
+        <a href="https://gauravkup.github.io/Calculator/" target="#"><h3>Calculator</h3></a>
+        <a href="http://localhost:2000/temp" target="#"><h3>Temperature converter</h3></a>
         <a href="https://gauravkup.github.io/Word-Counter/" target="#"><h3>Word Counter</h3></a>
     </section>
 

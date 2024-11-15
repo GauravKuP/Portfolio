@@ -20,8 +20,8 @@ app.use(cors());
 //ajs projects path................................................................
 let ajsprojectpath=`${__dirname}/Projects/ajs techgun projects`;
 
-let temppath=`${ajsprojectpath}/project-1-temperature converter`;
-let tempfile=path.join(temppath,'Temperature converter.html');
+//let tempfile=`${ajsprojectpath}/project-1-temperature converter`;
+let tempfile=path.join(ajsprojectpath,'Temperature converter.html');
 console.warn('temp file path is--->',tempfile);
 
 app.get('/temp',(req,res)=>{
@@ -57,7 +57,7 @@ app.get('/photoslider',(req,res)=>{
 });
 
 
-let form=`${ajsprojectpath}/project-5-form validation/form validation.html`;
+let form=`${ajsprojectpath}/form validation.html`;
 app.get('/form',(req,res)=>{
     res.sendFile(form);
 });
