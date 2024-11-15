@@ -1,5 +1,5 @@
 #projectContainer{
-    background-color:lightcyan;
+    background-color:rgb(222, 245, 209);
 }
 
 #container{
@@ -24,16 +24,17 @@ a:link{
     color:initial;
 }
 a:visited{
-    color:red;
+    color:brown;
 }
 a:hover{
     color:orange;
 }
 a:active{
-    color:green;
+    color:red;
 }
 a{
 text-decoration: none;
+/* color:white; */
 }
 
 /* not working anchor tag style*/
@@ -53,3 +54,4 @@ text-decoration: none;
 .projectPosition{
     margin-left: 185px;
 }
+

@@ -9,7 +9,7 @@ function ContactMngrButtonComponent()
         }
         return(
             <>
-            <h3 style={cssObj}>Contact Manager</h3>
+            <h3 style={cssObj}>Contact Manager (ReactJs+NodeJs)</h3>
             <button style={cssObj} onClick={()=>setDisplay(display=true)}>Show</button>
             <button  onClick={()=>setDisplay(display=false)}>Hide</button>
             {display && <ContactMngrParentComponent/>}
