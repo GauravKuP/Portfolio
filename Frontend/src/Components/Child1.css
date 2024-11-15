@@ -21,8 +21,8 @@
     /* cursor:pointer; */
 }
 .block:hover{
-    background-color: aliceblue;
-    
+    background-color:aquamarine;
+    color:black;
 }
 
 .heading{
