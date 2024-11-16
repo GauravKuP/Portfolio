@@ -21,7 +21,7 @@ return(
     <section className='inlineBlock'>
         <h2>Tools</h2>
         <a href="https://gauravkup.github.io/Calculator/" target="#"><h3>Calculator</h3></a>
-        <a href="http://localhost:2000/temp" target="#"><h3>Temperature converter</h3></a>
+        <a href="https://gauravkup.github.io/Temperature-Converter/" target="#"><h3>Temperature converter</h3></a>
         <a href="https://gauravkup.github.io/Word-Counter/" target="#"><h3>Word Counter</h3></a>
     </section>
 
@@ -30,7 +30,7 @@ return(
         <a href="https://gauravkup.github.io/Sticky-Menu-Bar/ " target="#"><h3>Sticky Menu Bar</h3></a>
         <a href="https://gauravkup.github.io/Backround-Changer/" target="#"><h3>Background Changer</h3></a>
         <a href="https://gauravkup.github.io/Photo-Slider/ " target="#"><h3>Photo Slider</h3></a>
-        <a href="http://localhost:2000/form" target="#"><h3>Form validation</h3></a>
+        {/* <a href="http://localhost:2000/form" target="#"><h3>Form validation</h3></a> */}
     </section>
 
     </div>
