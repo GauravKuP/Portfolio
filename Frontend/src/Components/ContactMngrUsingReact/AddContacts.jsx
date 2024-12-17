@@ -4,29 +4,6 @@ import React, {useEffect, useState} from 'react';
 
 function AddContacts(){
 
-//let [Data,setData]=useState([]);
-
-// useEffect(()=>{
-//     fetch('http://localhost:1000/api')
-//     .then(res=>res.json())
-//     .then(data=>{console.warn(data);setThing(thing=data.msg)})
-//     .catch(err=>console.warn(err));
-// })
-
-
-// useEffect(()=>{
-//   async function connect(){
-//     //const res=await Axios.get('http://localhost:1000/showContacts');
-//     const res=await fetch('http://localhost:1000/addContact');
-//     //console.warn(res.data);
-//     const sqlData=await res.json();
-//     setData(Data=sqlData);
-//     console.warn(sqlData);
-//   }
-//     connect();
-// },[]);
-
-
 return(
     <>
     <div class='inlineblock' id="add">

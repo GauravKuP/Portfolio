@@ -1,5 +1,5 @@
 .page{
-    height: 80vh;
+    height: auto;
     /* background-image: url(./images/pexels-pixabay-66869.jpg); */
     background-color: aquamarine;
 }
@@ -8,3 +8,28 @@
     text-align: center;
     background-color: lightgoldenrodyellow;
 }
+
+@media screen and (max-width:375px){
+    
+.center{
+    text-align: center;
+    background-color:lightgrey;
+}
+
+.center h1,h2{
+    font-size: 4vw;
+}
+}
+
+@media screen and (max-width:760px){
+    
+    .center{
+        text-align: center;
+        background-color:lightgreen;
+    }
+    
+    .center h1,h2{
+        font-size: 3vw;
+    }
+    }
+    

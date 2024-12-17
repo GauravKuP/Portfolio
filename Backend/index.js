@@ -29,38 +29,38 @@ app.get('/temp',(req,res)=>{
     res.sendFile(tempfile);
 })
 
-let wordCfile=`${ajsprojectpath}/project-2-word counter/word counter.html`;
-app.get('/wordcounter',(req,res)=>{
-    res.sendFile(wordCfile);
-});
+// let wordCfile=`${ajsprojectpath}/project-2-word counter/word counter.html`;
+// app.get('/wordcounter',(req,res)=>{
+//     res.sendFile(wordCfile);
+// });
 
-let stopfile=`${ajsprojectpath}/project-7-stopwatch/stopwatch.html`;
-app.get('/stopwatch',(req,res)=>{
-    res.sendFile(stopfile);
-});
+// let stopfile=`${ajsprojectpath}/project-7-stopwatch/stopwatch.html`;
+// app.get('/stopwatch',(req,res)=>{
+//     res.sendFile(stopfile);
+// });
 
-let stickyfile=`${ajsprojectpath}/project-4-sticky menu bar/stiky menu bar.html`;
-app.get('/stickymenubar',(req,res)=>{
-    res.sendFile(stickyfile);
-});
-
-
-let background=`${ajsprojectpath}/project-3-Background changer/background changer.html`;
-app.get('/backgroundchanger',(req,res)=>{
-    res.sendFile(background);
-});
+// let stickyfile=`${ajsprojectpath}/project-4-sticky menu bar/stiky menu bar.html`;
+// app.get('/stickymenubar',(req,res)=>{
+//     res.sendFile(stickyfile);
+// });
 
 
-let photofile=`${ajsprojectpath}/project-6-Photo slider/photoSlider.html`;
-app.get('/photoslider',(req,res)=>{
-    res.sendFile(photofile);
-});
+// let background=`${ajsprojectpath}/project-3-Background changer/background changer.html`;
+// app.get('/backgroundchanger',(req,res)=>{
+//     res.sendFile(background);
+// });
 
 
-let form=`${ajsprojectpath}/form validation.html`;
-app.get('/form',(req,res)=>{
-    res.sendFile(form);
-});
+// let photofile=`${ajsprojectpath}/project-6-Photo slider/photoSlider.html`;
+// app.get('/photoslider',(req,res)=>{
+//     res.sendFile(photofile);
+// });
+
+
+// let form=`${ajsprojectpath}/form validation.html`;
+// app.get('/form',(req,res)=>{
+//     res.sendFile(form);
+// });
 
 
 //server welcome note:
@@ -134,12 +134,7 @@ const conn=mysql.createConnection({
     //updating contacts...................................................................
   app.get('/updateContact',(req,res)=>{
     var OldName=req.query.OldName, NewName=req.query.NewName, NewNo=req.query.NewNo;
-    // var OldName=req.formdata.OldName;
-    // var NewName=req.formdata.NewName;
-    // var NewNo=req.formdata.NewNo;
-    //  console.warn(OldName, NewName, NewNo);
-     //res.send('I m update contact');
-     //res.send(req.body);
+   
   conn.query('SELECT Name FROM contacts Where Name='+ mysql.escape(OldName),(err,result)=>{
    if(err)
    res.send(`<h2>Name not found. Enter correct name<h2>`);

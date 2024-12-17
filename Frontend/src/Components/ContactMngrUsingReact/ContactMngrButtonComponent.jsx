@@ -5,7 +5,8 @@ function ContactMngrButtonComponent()
 {
         let [display,setDisplay]=useState(false);
         let cssObj={
-            marginLeft:'145px'
+            marginLeft:'9.5vw'
+         
         }
         return(
             <>

@@ -3,8 +3,10 @@
 #BgImg{
     background-image: url('../images/vector-contact-us-background.jpg');
     background-attachment:fixed ;
-    background-size:cover;
+    background-size:contain;
     height:650px;
+    /* height:80vh; */
+    margin-right:4vw;
 }
 
 .containerCM{
@@ -106,4 +108,88 @@ input:hover{
 
 button{
     cursor:pointer;
+}
+
+
+
+/* media queries............................................................. */
+
+@media screen and (max-width:1430px){
+#BgImg{
+        height:900px;
+   }   
+
+#delete
+{
+    
+    left:40px;
+    top:500px;
+}
+#search
+{
+    
+    left:40px;
+    top:630px;
+}
+
+#add{
+
+    left:500px;
+    top:200px;
+}
+
+#update{
+    
+    left:930px;
+    top:200px;
+
+}
+}
+
+@media screen and (max-width:1350px){
+    #BgImg{
+            height:900px;
+       }   
+    
+       #update{
+        position:absolute;
+        left:400px;
+        top:500px;
+       } 
+
+       #add{
+
+        left:400px;
+        top:200px;
+    }
+
+}
+
+@media screen and (max-width:800px){
+#BgImg{
+        height:1150px;
+       }   
+    
+#add{
+    left:40px;
+    top:350px;
+     }
+
+#update{
+        left:40px;
+        top:600px;
+    } 
+
+#delete
+{
+    left:40px;
+    top:850px;
+}
+
+#search
+{
+    left:40px;
+    top:970px;
+}
+
 }
